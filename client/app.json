@@ -25,7 +25,7 @@
       "package":"com.cautiousdrive",
       "config":{
         "googleMaps":{
-          "apiKey":"AIzaSyAOOimwD4TpFPmSYlf831REkAVRASacsiE"
+          "apiKey":"<api-key>"
         }
       }
     },
