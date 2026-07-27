@@ -74,7 +74,7 @@ export default class MechanicsMap1 extends React.Component {
     const location = `location=${this.state.latitude},${this.state.longitude}`;
     const radius = '&radius=1000';
     const type = '&type=car_repair';
-    const key = '&key=AIzaSyBKwpxeZ7kflUOJq225jKbcjiwlyvDtbNA';
+    const key = '&key=<key_value>';
     const mechanicSearchUrl = url + location + radius + type + key;
     fetch(mechanicSearchUrl)
       .then(response => response.json())
